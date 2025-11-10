@@ -1,34 +1,11 @@
-/* General page setup */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f8f8f8;
-}
-
-/* Limit main content width */
+/* Main section */
 main {
   max-width: 840px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-/* Profile image inside main */
-main img {
-  width: 150px;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-/* Paragraph setup */
-p {
-  padding: 0;
-  line-height: 1.6;
-}
-
-/* Aside section styling */
+/* Aside section */
 aside {
   width: 20rem;
   margin: 1rem auto;
@@ -39,19 +16,30 @@ aside {
   text-align: center;
 }
 
-/* Image inside the aside */
+/* Images inside aside */
 aside img {
   width: 200px;
   height: auto;
-  border-radius: 10px;
-  margin-bottom: 0.5rem;
 }
 
-/* Footer styling */
+/* Profile image in main */
+main img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  padding: 0;
+}
+
+/* Footer */
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
-  padding: 1rem;
-  background-color: #f0f0f0;
+  padding-top: 0.5rem;
 }
+
